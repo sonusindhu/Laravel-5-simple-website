@@ -77,19 +77,20 @@
                             <div class="col-xs-10 text-right menu-1">
                                 <ul>
                                     <!-- <li class="active"><a href="index.html">Home</a></li> -->
-                                    <li><a href="work.html">Work</a></li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="{{URL::to('/')}}">Home</a></li>
+                                    <li><a href="{{URL::to('/about')}}">About</a></li>
                                     <li class="has-dropdown">
-                                        <a href="services.html">Services</a>
-                                        <ul class="dropdown">
+                                        <a href="{{URL::to('/services')}}">Services</a>
+<!--                                        <ul class="dropdown">
                                             <li><a href="#">Web Design</a></li>
                                             <li><a href="#">eCommerce</a></li>
                                             <li><a href="#">Branding</a></li>
                                             <li><a href="#">API</a></li>
-                                        </ul>
+                                        </ul>-->
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li class="btn-cta"><a href="#"><span>Login</span></a></li>
+                                    <li><a href="{{URL::to('/portfolio')}}">Portfolio</a></li>
+                                    <li><a href="{{URL::to('/contact')}}">Contact</a></li>
+                                    <!--<li class="btn-cta"><a href="#"><span>Login</span></a></li>-->
                                 </ul>
                             </div>
                         </div>
@@ -177,8 +178,8 @@
                     <div class="row copyright">
                         <div class="col-md-12 text-center">
                             <p>
-                                <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-                                <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+                                <small class="block">&copy; 2016 All Rights Reserved.</small> 
+                                <small class="block">Developed by <a href="http://sonusindhu.com/" target="_blank">FreeHTML5.co</a></small>
                             </p>
                             <p>
                             <ul class="fh5co-social-icons">
