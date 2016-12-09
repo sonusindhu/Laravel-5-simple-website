@@ -99,21 +99,7 @@
                 </div>
             </nav>
 
-            <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);" data-stellar-background-ratio="0.5">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="display-t">
-                                <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                    <h1>Working hard is <strong>rewarding</strong></h1>
-                                    <p><a href="#" class="btn btn-primary btn-lg with-arrow">View Our Work</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            
 
             
             
@@ -179,7 +165,7 @@
                         <div class="col-md-12 text-center">
                             <p>
                                 <small class="block">&copy; 2016 All Rights Reserved.</small> 
-                                <small class="block">Developed by <a href="http://sonusindhu.com/" target="_blank">FreeHTML5.co</a></small>
+                                <small class="block">Developed by <a href="http://sonusindhu.com/" target="_blank">Sonu Sindhu</a></small>
                             </p>
                             <p>
                             <ul class="fh5co-social-icons">
